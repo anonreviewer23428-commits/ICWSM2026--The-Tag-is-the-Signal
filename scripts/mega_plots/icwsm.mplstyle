@@ -1,0 +1,52 @@
+# ICWSM / AAAI camera-ready matplotlib defaults (2-column, Times-like).
+#
+# Use with: `import matplotlib.pyplot as plt; plt.style.use("mega_plots/icwsm.mplstyle")`
+#
+# Hard requirements:
+# - All figure text >= 9pt (at final included size)
+# - Serif font compatible with Times/Nimbus
+# - PDF font embedding with no Type 3 fonts (and avoid CID/Identity-H fonts)
+# - Line widths suitable for print
+
+figure.dpi: 300
+savefig.dpi: 300
+savefig.bbox: tight
+savefig.pad_inches: 0.01
+
+# Use LaTeX for text to reliably produce embedded Type 1 fonts (no Type 3, no CID/Identity-H).
+text.usetex: True
+text.latex.preamble: \usepackage[T1]{fontenc}\usepackage{newtxtext,newtxmath}
+
+font.family: serif
+# (Mostly ignored when `text.usetex=True`; LaTeX controls the fonts.)
+font.serif: Times, Nimbus Roman, Nimbus Roman No9 L, STIXGeneral, DejaVu Serif
+font.size: 9
+
+axes.titlesize: 9
+axes.labelsize: 9
+axes.linewidth: 0.85
+
+xtick.labelsize: 9
+ytick.labelsize: 9
+xtick.major.width: 0.6
+ytick.major.width: 0.6
+xtick.major.size: 3.0
+ytick.major.size: 3.0
+
+legend.fontsize: 9
+legend.frameon: False
+
+lines.linewidth: 1.0
+patch.linewidth: 0.6
+
+grid.linewidth: 0.5
+grid.alpha: 0.25
+
+axes.unicode_minus: False
+
+# Avoid Type 3 fonts in PDF/PS.
+pdf.fonttype: 42
+ps.fonttype: 42
+
+# Reasonable math text defaults (keeps serif look without TeX).
+mathtext.fontset: stix

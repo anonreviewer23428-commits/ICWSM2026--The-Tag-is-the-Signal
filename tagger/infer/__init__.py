@@ -1,0 +1,1 @@
+from .get_sample_template import get_sample

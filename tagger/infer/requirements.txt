@@ -1,0 +1,11 @@
+requests
+trafilatura
+beautifulsoup4
+readability-lxml
+pandas
+transformers>=4.54.0
+peft
+accelerate
+bitsandbytes
+scipy
+ddgs

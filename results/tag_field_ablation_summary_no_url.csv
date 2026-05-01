@@ -1,0 +1,12 @@
+,,,test_accuracy,test_accuracy,test_roc_auc,test_roc_auc,test_macro_f1,test_macro_f1,test_macro_recall,test_macro_recall,test_recall_pos,test_recall_pos,test_brier,test_brier,test_ece,test_ece
+,,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+model,fields,n_features,,,,,,,,,,,,,,
+tags_claim_only,claim,12,0.729,0.1269,0.7485,0.1329,0.7004,0.1296,0.7281,0.1162,0.7915,0.1632,0.2391,0.0085,0.2319,0.1053
+tags_cta_only,cta,8,0.833,0.0713,0.8445,0.0827,0.8009,0.0978,0.8082,0.1007,0.857,0.0388,0.193,0.0235,0.2275,0.0537
+tags_drop_claim,cta+evidence+theme,24,0.8124,0.0708,0.8549,0.0972,0.785,0.0831,0.7941,0.0858,0.791,0.069,0.1792,0.0276,0.2052,0.0511
+tags_drop_cta,claim+evidence+theme,28,0.7458,0.0989,0.8153,0.1372,0.7262,0.0995,0.7524,0.0985,0.7451,0.0474,0.2082,0.0309,0.2363,0.0812
+tags_drop_evidence,claim+cta+theme,31,0.8035,0.1135,0.8663,0.0916,0.7806,0.1123,0.7936,0.1079,0.8537,0.0602,0.1716,0.0268,0.2326,0.0611
+tags_evidence_only,evidence,5,0.6012,0.1044,0.6418,0.1035,0.5552,0.1006,0.6306,0.0954,0.3582,0.1872,0.2475,0.0019,0.1788,0.0708
+tags_full,claim+cta+evidence+theme,36,0.8135,0.0959,0.8714,0.0918,0.7869,0.1038,0.7978,0.1023,0.8413,0.0544,0.1668,0.0297,0.2235,0.0568
+tags_style_only_no_theme,claim+cta+evidence,25,0.8309,0.0733,0.8701,0.0883,0.8047,0.0891,0.8145,0.0914,0.8334,0.0495,0.1823,0.0334,0.2435,0.0659
+tags_theme_only,theme,11,0.6629,0.1583,0.7106,0.1983,0.6362,0.1643,0.6879,0.1316,0.691,0.136,0.2484,0.0015,0.2287,0.1001

@@ -1,0 +1,23 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+
+# SBERT baseline
+sentence-transformers
+
+# LLM baselines
+openai
+snorkel
+
+# Tagger eval helper
+fuzzywuzzy
+python-Levenshtein
+
+# Tagger training/inference (GPU environment)
+torch
+transformers
+peft
+accelerate
+bitsandbytes

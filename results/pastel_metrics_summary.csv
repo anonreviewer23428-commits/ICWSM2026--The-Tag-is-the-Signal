@@ -1,0 +1,4 @@
+,test_accuracy,test_accuracy,test_roc_auc,test_roc_auc,test_macro_f1,test_macro_f1,test_brier,test_brier,test_ece,test_ece
+,mean,std,mean,std,mean,std,mean,std,mean,std
+model,,,,,,,,,,
+pastel,0.708343,0.079945,0.7466,0.109379,0.660089,0.107589,0.292654,0.078588,0.256433,0.066939

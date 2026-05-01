@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# secrets
+.env
+.env.*
+
+# local data / outputs (not committed)
+data/
+outputs/
+
+# model artifacts / caches
+*.npy
+*.pt
+*.bin
+*.safetensors
+embedding_cache/
+**/embedding_cache/
+**/outputs/
+**/artifacts/

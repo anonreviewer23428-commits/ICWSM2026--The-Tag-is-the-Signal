@@ -1,0 +1,4 @@
+,test_accuracy,test_accuracy,test_roc_auc,test_roc_auc,test_macro_f1,test_macro_f1,test_brier,test_brier,test_ece,test_ece
+,mean,std,mean,std,mean,std,mean,std,mean,std
+model,,,,,,,,,,
+zero_shot,0.736693,0.11608,0.837908,0.102218,0.705446,0.137481,0.169269,0.065795,0.182081,0.100576
